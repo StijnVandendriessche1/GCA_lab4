@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\stijn\Documents\school\2023-2024\geavanceerde computerarchitectuur\lab4\GCA_lab4\GCA_lab4_part2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc142.pdb" -o "C:\Users\stijn\Documents\school\2023-2024\geavanceerde computerarchitectuur\lab4\GCA_lab4\GCA_lab4_part2\x64\Debug\kernel.cu.obj" "C:\Users\stijn\Documents\school\2023-2024\geavanceerde computerarchitectuur\lab4\GCA_lab4\GCA_lab4_part2\kernel.cu" 
+  kernel.cu
+  tmpxft_00002b30_00000000-7_kernel.cudafe1.cpp
+     Creating library C:\Users\stijn\Documents\school\2023-2024\geavanceerde computerarchitectuur\lab4\GCA_lab4\x64\Debug\GCA_lab4_part2.lib and object C:\Users\stijn\Documents\school\2023-2024\geavanceerde computerarchitectuur\lab4\GCA_lab4\x64\Debug\GCA_lab4_part2.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  GCA_lab4_part2.vcxproj -> C:\Users\stijn\Documents\school\2023-2024\geavanceerde computerarchitectuur\lab4\GCA_lab4\x64\Debug\GCA_lab4_part2.exe
